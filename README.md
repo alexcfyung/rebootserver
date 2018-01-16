@@ -1,5 +1,8 @@
 # Remotely reboot multiple servers
 
+For the reboot function in this solution, the user should be prompt for password of each server that they tend to reboot. 
+If you want to login without password, consider using `ssh-keygen` and `ssh-copy-id`
+
 ## How to use
 
 Call `rebootserver.sh reboot *` to reboot all servers in list_of_servers.txt.
